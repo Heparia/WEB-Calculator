@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  header{
+    color: whitesmoke;
+    text-align: center;
+  }
+  footer{
+    background-color: #e8bd46;
+    color: whitesmoke;
+  }
+  body {
+    font-family: "Fredoka One";
+    max-height: 50px;
+    max-width: 1400px;
+    background-color: #dea918;
+  }
+   
+  .flex-container-column {
+    display: flex;
+   
+    /* properti pendukung */
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: right;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .flex-container-row {
+    display: flex;
+    background-color: whitesmoke;
+    max-width: 450px;
+  }
+   
+  .button {
+    flex-basis: 25%;
+   
+    /* properti pendukung */
+    font-size: 1.5em;
+    text-align: center;
+    padding: 3px;
+    margin: 5%;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  .button:hover, .button:focus {
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25);
+    background-color: #e8bd46;
+    transform: scale(1.5);
+  }
+  .other{
+    background-color: #eecc70;
+  }
+  .double {
+    flex-basis: 50%;
+  }
+  .display{
+    font-size: 3.5em;
+    padding-right: 20px;
+    color: whitesmoke;
+    background-color: #e8bd46;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+  }
+  .end {
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  .Judul {
+    text-align: right;
+    padding-right: 3%;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 200px;
+    position: relative;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: #e8bd46;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .history{
+    color: #dea918;
+    text-align: right;
+    padding: 10px 10px;
+    width: 40%;
+    border-radius: 8px;
+    margin: 30px auto 0 auto;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    min-width: 350px;
+    max-width: 450px;
+  }
+  th, td {
+   text-align: center;
+   font-size: 12px;
+   padding: 12px;
+   background-color: #e8bd46;
+   color: whitesmoke;
+   letter-spacing: 1px;
+   border-radius: 20px;
+   max-width: 120px;
+   min-width: 80px;
+  }
+  td{
+    background-color: rgb(247, 244, 234);
+    color: #e8bd46;
+  }
+  tr:nth-child(even) {
+    background-color: #d2d2d2;
+ }
+ .buttonHistory{
+  text-align: left;
+  font-size: 72%;
+  letter-spacing: 1.5px;
+  color: whitesmoke;
+  background-color: #dea918;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 20px;
+  max-width: fit-content;
+  border: none;
+ }
+ .buttonHistory:hover, .buttonHistory:focus{
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25);
+    background-color: #e8bd46;
+    transform: scale(1.2);
+ }
